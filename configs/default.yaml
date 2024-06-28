@@ -1,0 +1,16 @@
+model:
+  image_encoder:
+    out_ch: 128
+  point_decoder:
+    mlp_chs: [256, 64, 16, 1]
+  gs:
+    t: 512  # temperature (a scaling factor)
+    res: 12 # the resolution of GS points
+    p_dist_scaling: 1.0
+    o_scaling: 1.0 # for offsets
+    s_scaling: 0.3 # for scaling vector
+
+dataset:
+  root_dir: ../../datasets
+  gs_res: 12 # the resolution of GS points (12^3 points in total)
+  
