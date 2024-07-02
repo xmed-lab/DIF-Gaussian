@@ -1,6 +1,18 @@
 # DIF-Gaussian
 
-Yiqun Lin, Hualiang Wang, Jixiang Chen, and Xiaomeng Li. "Learning 3D Gaussians for Extremely Sparse-View Cone-Beam CT Reconstruction." MICCAI 2024.
+Yiqun Lin, Hualiang Wang, Jixiang Chen, and Xiaomeng Li. "Learning 3D Gaussians for Extremely Sparse-View Cone-Beam CT Reconstruction." MICCAI 2024. [arXiv](https://arxiv.org/abs/2407.01090)
+
+```
+@misc{lin2024learning3d,
+      title={Learning 3D Gaussians for Extremely Sparse-View Cone-Beam CT Reconstruction}, 
+      author={Yiqun Lin and Hualiang Wang and Jixiang Chen and Xiaomeng Li},
+      year={2024},
+      eprint={2407.01090},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2407.01090}, 
+}
+```
 
 ## 1. Installation
 
