@@ -5,10 +5,10 @@ from copy import deepcopy
 
 class Geometry(object):
     def __init__(self, config):
-        self.v_res = config['nVoxel'][0]    # ct scan
-        self.p_res = config['nDetector'][0] # projections
-        self.v_spacing = np.array(config['dVoxel'])[0]    # mm
-        self.p_spacing = np.array(config['dDetector'])[0] # mm
+        self.v_res = config['nVoxel']    # ct scan
+        self.p_res = config['nDetector'] # projections
+        self.v_spacing = np.array(config['dVoxel'])    # mm
+        self.p_spacing = np.array(config['dDetector']) # mm
         # NOTE: only (res * spacing) is used
 
         self.DSO = config['DSO'] # mm, source to origin
